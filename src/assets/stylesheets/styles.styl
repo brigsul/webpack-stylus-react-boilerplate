@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather')
+
+bp = rgb(135,150,223)
+bg = rgb(153,251,198)
+fs = 5rem
+merri = "Merriweather", sans-serif
+
+body {
+    height 100vh
+    background-color bp
+    color bg
+    font-size fs
+    font-weight 900
+    font-family merri
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  .image-wrapper {
+    display: inline-block;
+    margin: 0 10px;
+    &__image {
+      width: auto;
+      height: 300px;
+    }
+  }
+}
